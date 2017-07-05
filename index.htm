@@ -11,8 +11,18 @@
         <link rel="stylesheet" href="css/perfect-scrollbar-0.4.5.min.css" tppabs="css/perfect-scrollbar-0.4.5.min.css">
         <link rel="stylesheet" href="css/magnific-popup.css" tppabs="css/magnific-popup.css">
         <link rel="stylesheet" href="css/style.css" tppabs="css/style.css">
-        <link id="theme-style" rel="stylesheet" href="css/styles/green.css" tppabs="css/styles/green.css">
-
+        
+        <!-- RESPONSIVE CSS-->
+        <link href="css/responsive.css" tppabs="css/responsive.css" rel="stylesheet">
+        
+        <link id="theme-style" rel="stylesheet" href="css/styles/green.css" tppabs="css/styles/green.css" title="green">
+        <link id="theme-style" rel="stylesheet" href="css/styles/red.css" tppabs="css/styles/red.css" title="red">
+        <link id="theme-style" rel="stylesheet" href="css/styles/blue.css" tppabs="css/styles/blue.css" title="blue">
+        <link id="theme-style" rel="stylesheet" href="css/styles/yellow.css" tppabs="css/styles/yellow.css" title="yellow">
+        <link id="theme-style" rel="stylesheet" href="css/styles/purple.css" tppabs="css/styles/purple.css" title="purple">
+        
+        <!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
+        <link rel="stylesheet" href="css/demo.css" tppabs="css/demo.css">
         
         <!--/CSS styles-->
         <!--Javascript files-->
@@ -475,6 +485,48 @@
                 
                 <div id="overlay"></div>
             
+            </div>
+        </div>
+        <!-- materialize js-->
+        <script src="js/materialize.min.js" tppabs="js/materialize.min.js"></script>
+        <!-- wow js-->
+        <script src="js/wow.min.js" tppabs="js/wow.min.js"></script>
+        <script src="js/maps.js"></script>
+        <!-- Masonry js-->
+        <script src="js/masonry.pkgd.js" tppabs="js/masonry.pkgd.js"></script>
+        <script src="js/validator.min.js" tppabs="js/validator.min.js"></script>
+        <!-- Customized js -->
+        <script src="js/init.js" tppabs="js/init.js"></script>    
+        <!-- Style switter js -->
+        <script src="js/styleswitcher.js" tppabs="js/styleswitcher.js"></script>
+        <div class="cv-style-switch" id="switch-style">
+            <a id="toggle-switcher" class="switch-button icon_tools"> <i class="glyphicon glyphicon-cog"></i></a>
+            <div class="switched-options">                
+                <div class="config-title">
+                    Change Colors :
+                </div>
+                <ul class="styles">
+                    <li><a href="index.html#" tppabs="index.html#" onclick="setActiveStyleSheet('green'); return false;" title="green">
+                    <div class="green"></div>
+                    </a></li>
+                    
+                    <li><a href="index.htm#" tppabs="index.htm#" onclick="setActiveStyleSheet('red'); return false;" title="Red">
+                    <div class="red"></div>
+                    </a></li>                    
+                    
+                    <li><a href="index.html#" tppabs="index.html#" onclick="setActiveStyleSheet('blue'); return false;" title="blue">
+                    <div class="blue"></div>
+                    
+                    <li><a href="index.html#" tppabs="index.html#" onclick="setActiveStyleSheet('purple'); return false;" title="purple">
+                    <div class="purple"></div>
+                    </a></li>
+
+                    <li><a href="index.html#" tppabs="index.html#" onclick="setActiveStyleSheet('yellow'); return false;" title="yellow">
+                    <div class="yellow"></div>
+                    </a></li>                  
+                                        
+                    </a></li>
+                </ul>
             </div>
         </div>
     </body>
