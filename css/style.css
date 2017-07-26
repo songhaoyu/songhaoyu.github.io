@@ -59,16 +59,12 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	display: block;
 	width: 50px;
 	height: 50px;
-	color: #fff;
+	color: #696969;
 	display: none;
 }
 
-.mobilemenu:hover{
-	color: #fff;
-}
-
-.mobilemenu:focus {
-	color: #2b2b2b;
+.mobilemenu:hover,.mobilemenu:focus {
+	color: #696969;
 }
 
 /* layout
