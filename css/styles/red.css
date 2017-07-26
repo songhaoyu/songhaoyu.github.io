@@ -56,8 +56,25 @@ ul.timeline li.open .data {
 	border-top-color: #FFAEB9;
 }
 
+a:hover,
+a:focus {
+  color: #FF3030;
+}
 
-
+a.post-link:link{
+    color: #FF3030;
+}
+a.post-link:visited {
+  color: #FF3030;
+}
+a.post-link:hover{
+  color: #272727;
+  text-decoration: underline;
+}
+a.post-link:focus {
+  color: #272727;
+  text-decoration: underline;
+}
 
 
 

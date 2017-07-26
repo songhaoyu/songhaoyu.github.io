@@ -56,11 +56,38 @@ ul.timeline li.open .data {
 	border-top-color: #2894FF;
 }
 
+a:hover,
+a:focus {
+  color: #2894FF;
+}
 
+a.post_bar:hover{
+  color: #272727;
+}
+a.post_bar:focus {
+  color: #272727;
+}
+a.post_bar:visited {
+  color: #2894FF;
+}
+a.post_bar:link{
+    color: #2894FF;
+}
 
-
-
-
+a.post-link:link{
+    color: #0066CC;
+}
+a.post-link:visited {
+  color: #0066CC;
+}
+a.post-link:hover{
+  color: #272727;
+  text-decoration: underline;
+}
+a.post-link:focus {
+  color: #272727;
+  text-decoration: underline;
+}
 
 
 
